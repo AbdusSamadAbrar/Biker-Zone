@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biker Zone</title>
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- FONT AWESOME CDN LINK -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- DAISYUI CDN LINK -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+    
+  <style>
+    .poppins-thin {
+    font-family: "Poppins", serif;}
+    .inter{
+    font-family: "Inter", serif;}
+    .manrope {
+    font-family: "Manrope", serif;}
+  </style>
+
+</head>
+<body>
+  <header class=" bg-[#264653]">
+    <nav>
+      <div class="navbar bg-[#264653]">
+        <div class="navbar-start container mx-auto">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-medium">
+                <li><a>Home</a></li>                      
+                <li><a>Shop</a></li>
+                <li><a>Menu</a></li>
+                <li><a>Contacts</a></li>
+            </ul>
+          </div> 
+        </div> 
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-white Poppins">
+              <li><a>Home</a></li>                      
+              <li><a>Shop</a></li>
+              <li><a>Menu</a></li>
+              <li><a>Contacts</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn mr-40 opacity-0 sm:opacity-100 bg-[#E76F51] border-[#E76F51] text-white">Login</a>
+          </div>
+      </div>
+    </nav>
+    <!-- Header Section -->
+    <section>
+      <div class="container mx-auto text-white poppins flex justify-between items-center">
+        <div class="flex-1">
+          <p class="text-sm mt-36 font-light">Computer-controlled digital transistorized with electronic advance</p>
+          <h3 class="text-5xl font-bold mt-1">Honda CBR 300R</h3>
+          <p class="mt-5 font-light text-[#E0E0E0]">Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit <br> mollit. Exercitation veniam consequat sunt nostrud amet.</p>              
+          <a class="btn mr-40 bg-[#E76F51] border-[#E76F51] text-white mt-5 px-9 mb-60">Purchase</a>
+        </div>
+        <div class="flex-1">
+          <img class="bg-[#264653] w-[33.12rem]" src="resources/others/extrabike.png">
+        </div>
+      </div>
+    </section>
+  </header>
+  <main>
+
+    <!-- Fetured Bikes In This Year -->
+    <section>
+      <div class="container mx-auto">
+        <div class="flex flex-col justify-center text-center mt-16 poppins">
+          <h1 class="font-semibold text-5xl">Fetured Bikes In This Year</h1>
+          <p class="text-[#E76F51] text-sm mt-2">Best bike collection</p>
+        </div>
+        <div class="mt-28 flex gap-x-32 justify-center">
+          <img class="w-72 h-60" src="resources/others/feature-bike.png">
+          <img class="w-72 h-60" src="resources/slider/bike2.png">
+          <img class="w-72 h-60" src="resources/slider/bike3.png">
+        </div>
+      </div>
+    </section>
+
+    <!-- latest News -->
+    <section class="container mx-auto poppins">
+      <h2 class="font-semibold text-5xl flex justify-center mt-40">Latest News</h2>
+      <div class="flex gap-5 justify-center mt-12">
+        <div class="p-5 border-2 rounded-md border-slate-100">
+          <img src="resources/others/latest1.png">
+          <h3 class="font-semibold text-2xl mt-4">Ducati XDIAVEL S-73</h3>
+          <p class="text-[#6C6C6C] mt-2.5">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Lacus, fermentum amet <br> faucibus sed id nisi lectus at.</p>
+          <a class="btn bg-[#E76F51] border-[#E76F51] text-white px-7 mt-10">Read More</a>
+        </div>
+        <div class="p-5 border-2 rounded-md border-slate-100">
+          <img src="resources/others/latest2.png">
+          <h3 class="font-semibold text-2xl mt-4">Motorcycles & Scooters</h3>
+          <p class="text-[#6C6C6C] mt-2.5">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Lacus, fermentum amet <br> faucibus sed id nisi lectus at.</p>
+          <a class="btn bg-white border-[#E76F51] text-[#E76F51] px-7 mt-10">Read More</a>
+        </div>
+        <div class="p-5 border-2 rounded-md border-slate-100">
+          <img src="resources/others/latest3.png">
+          <h3 class="font-semibold text-2xl mt-4">2021 Honda CBR500R</h3>
+          <p class="text-[#6C6C6C] mt-2.5">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Lacus, fermentum amet <br> faucibus sed id nisi lectus at.</p>
+          <a class="btn bg-white border-[#E76F51] text-[#E76F51] px-7 mt-10">Read More</a>
+        </div>        
+      </div>
+    </section>
+
+    <!-- Happy Clients says -->
+    <section class="container mx-auto poppins">
+      <h3 class="font-semibold text-5xl mt-40 text-center">Happy <span class="text-[#E76F51]">Clients says</span></h3>
+      <div class="flex gap-11 justify-center mt-14">
+        <div class="p-5 border-2 rounded-md border-slate-100">
+          <div class="flex justify-center">
+            <img class="w-36 flex" src="resources/others/user-1.png">
+          </div>
+          <p class="text-[#6C6C6C] mt-7 text-center">Slate helps you see how <br> many more days you need <br> to work to reach your financial <br> goal for the month and year.</p>
+          <div class="flex mt-4  justify-center">
+            <img class="w-5" src="resources/icons/star-solid.svg"><img class="w-5" src="resources/icons/star-solid.svg"><img class="w-5" src="resources/icons/star-solid.svg"><img class="w-5" src="resources/icons/star-solid.svg"><img class="w-5" src="resources/icons/star-regular.svg">
+          </div>
+          <p class="text-[#23A6F0] font-semibold text-sm mt-3.5 flex justify-center">Regina Miles</p>
+          <p class="text-[#252B42] font-semibold text-sm mt-3.5 flex justify-center">Banker</p>
+        </div>
+        <div class="p-5 border-2 rounded-md border-slate-100">
+          <div class="flex justify-center">
+            <img class="w-36 flex" src="resources/others/user-2.png">
+          </div>
+          <p class="text-[#6C6C6C] mt-7 text-center">Slate helps you see how <br> many more days you need <br> to work to reach your financial <br> goal for the month and year.</p>
+          <div class="flex mt-4 justify-center">
+            <img class="w-5" src="resources/icons/star-solid.svg"><img class="w-5" src="resources/icons/star-solid.svg"><img class="w-5" src="resources/icons/star-solid.svg"><img class="w-5" src="resources/icons/star-solid.svg"><img class="w-5" src="resources/icons/star-regular.svg">
+          </div>
+          <p class="text-[#23A6F0] font-semibold text-sm mt-3.5 flex justify-center">Regina Miles</p>
+          <p class="text-[#252B42] font-semibold text-sm mt-3.5 flex justify-center">Banker</p>
+        </div>
+        <div class="p-5 border-2 rounded-md border-slate-100">
+          <div class="flex justify-center">
+            <img class="w-36 flex" src="resources/others/user-3.png">
+          </div>
+          <p class="text-[#6C6C6C] mt-7 text-center">Slate helps you see how <br> many more days you need <br> to work to reach your financial <br> goal for the month and year.</p>
+          <div class="flex mt-4 justify-center">
+            <img class="w-5" src="resources/icons/star-solid.svg"><img class="w-5" src="resources/icons/star-solid.svg"><img class="w-5" src="resources/icons/star-solid.svg"><img class="w-5" src="resources/icons/star-solid.svg"><img class="w-5" src="resources/icons/star-regular.svg">
+          </div>
+          <p class="text-[#23A6F0] font-semibold text-sm mt-3.5 flex justify-center">Regina Miles</p>
+          <p class="text-[#252B42] font-semibold text-sm mt-3.5 flex justify-center">Banker</p>
+        </div>       
+      </div>
+    </section>
+
+    <!-- Frequently Asked Questions -->
+    <section class="container mx-auto mb-32">
+      <h1 class="font-semibold text-5xl mt-32 text-center Poppins">Frequently Asked <span class="text-[#E76F51]">Questions</span></h1>
+      <!-- bap -->
+      <div class="flex mt-20 gap-24 justify-center inter">
+        <!-- div-1 -->
+        <div>
+          <img src="resources/others/faq.png">
+        </div> 
+        <!-- div-2 -->
+        <div class="flex flex-col gap-4">
+          <div class="p-5 border-2 rounded-md border-slate-100">
+            <div class="flex items-center gap-14">
+              <p class="text-xl font-medium">What are the most important things I should <br> know about riding a bike?</p><i class="fa-solid fa-caret-up"></i>
+            </div>
+            <p class="text-[#7E848C] mt-2">Safety First! Always obey the rules of the road. Obey all traffic <br> signals, signs, and laws. Get in the mindset of “driving” your <br> bike—not just “riding” your bike. This will help you be a more <br> focused and legally compliant bike rider. </p>
+          </div>
+          <div class="p-5 border-2 rounded-md border-slate-100 flex items-center gap-14">
+            <p class="text-xl font-medium">How can I tell if my helmet is old and I need a <br> new one?</p><i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="p-5 border-2 rounded-md border-slate-100 flex items-center gap-16">
+            <p class="text-xl font-medium">My bike has been in storage is it safe to ride?</p><i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="p-5 border-2 rounded-md border-slate-100 flex items-center gap-9">
+            <p class="text-xl font-medium">What rules should I follow when riding my bike?</p><i class="fa-solid fa-caret-down"></i>
+          </div>
+        </div>         
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-black">
+    <div class="container mx-auto pb-28">
+      <!-- 2ta -->
+      <div class="text-white manrope pt-14 flex justify-between">
+        <!-- 1st -->
+        <div>
+          <ul class="flex gap-6">
+            <li><a href="">Download Now</a></li>
+            <li><a href="">License</a></li>
+          </ul>
+          <ul class="flex gap-6 mt-3">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+          <p class="mt-3 text-sm">© 2020 bike. All rights reserved</p>
+        </div>
+        <!-- 2nd -->
+        <div class="text-white flex flex-col gap-5 pr-20">
+         <p class="text-lg font-medium">Get the App</p>
+         <img class="w-32" src="resources/others/android.png" alt="">
+         <img class="w-32" src="resources/others/ios.png" alt="">
+        </div>
+      </div> 
+    </div>
+  </footer>
+</body>
+</html>
